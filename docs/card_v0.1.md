@@ -85,7 +85,7 @@
 
 ## 9. Acceptance-критерии
 Полный список критериев приёмки с весами и способами проверки приведён в отдельном документе:  
-👉 [Acceptance Criteria для кейса 3](../qa//acceptance.md)
+👉 [Acceptance Criteria](../qa//acceptance.md)
 
 ## 10. Ссылки
 | Объект | Ссылка |
