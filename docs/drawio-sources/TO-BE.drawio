@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EWwaMyTcjKvwjJmKtEqF-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Клиент" vertex="1">
-          <mxGeometry height="140" width="230" x="50" y="230" as="geometry">
+          <mxGeometry height="140" width="230" x="320" as="geometry">
             <mxRectangle height="30" width="80" x="30" y="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -22,13 +22,10 @@
           <mxGeometry height="60" width="170" x="230" y="140" as="geometry" />
         </mxCell>
         <mxCell id="EWwaMyTcjKvwjJmKtEqF-35" parent="EWwaMyTcjKvwjJmKtEqF-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Формирует отчет и высчитывает KPI" vertex="1">
-          <mxGeometry height="60" width="170" x="30" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EWwaMyTcjKvwjJmKtEqF-5" edge="1" parent="1" source="EWwaMyTcjKvwjJmKtEqF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EWwaMyTcjKvwjJmKtEqF-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="60" width="170" x="240" y="50" as="geometry" />
         </mxCell>
         <mxCell id="EWwaMyTcjKvwjJmKtEqF-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Менеджер" vertex="1">
-          <mxGeometry height="380" width="900" x="320" y="410" as="geometry" />
+          <mxGeometry height="380" width="900" x="320" y="370" as="geometry" />
         </mxCell>
         <mxCell id="EWwaMyTcjKvwjJmKtEqF-12" edge="1" parent="EWwaMyTcjKvwjJmKtEqF-6" source="EWwaMyTcjKvwjJmKtEqF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EWwaMyTcjKvwjJmKtEqF-11" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -105,7 +102,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EWwaMyTcjKvwjJmKtEqF-31" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Руководитель" vertex="1">
-          <mxGeometry height="140" width="430" x="320" y="-30" as="geometry" />
+          <mxGeometry height="140" width="430" x="320" y="-140" as="geometry" />
         </mxCell>
         <mxCell id="EWwaMyTcjKvwjJmKtEqF-32" edge="1" parent="EWwaMyTcjKvwjJmKtEqF-31" source="EWwaMyTcjKvwjJmKtEqF-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EWwaMyTcjKvwjJmKtEqF-34" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -118,6 +115,10 @@
         </mxCell>
         <mxCell id="EWwaMyTcjKvwjJmKtEqF-37" edge="1" parent="1" source="EWwaMyTcjKvwjJmKtEqF-35" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="EWwaMyTcjKvwjJmKtEqF-33" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="-10" />
+              <mxPoint x="435" y="-10" />
+            </Array>
             <mxPoint x="660" y="380" as="sourcePoint" />
             <mxPoint x="710" y="330" as="targetPoint" />
           </mxGeometry>
@@ -188,6 +189,9 @@
         </mxCell>
         <mxCell id="EWwaMyTcjKvwjJmKtEqF-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- Запрос с передачей данных" vertex="1">
           <mxGeometry height="30" width="140" x="1210" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="EWwaMyTcjKvwjJmKtEqF-67" edge="1" parent="1" source="EWwaMyTcjKvwjJmKtEqF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EWwaMyTcjKvwjJmKtEqF-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

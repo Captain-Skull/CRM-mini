@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TW6byGsbLyMXrGjlFqkB-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Клиент" vertex="1">
-          <mxGeometry height="140" width="230" x="70" y="30" as="geometry">
+          <mxGeometry height="140" width="230" x="70" y="70" as="geometry">
             <mxRectangle height="30" width="80" x="30" y="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -75,7 +75,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TW6byGsbLyMXrGjlFqkB-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Руководитель" vertex="1">
-          <mxGeometry height="140" width="430" x="70" y="640" as="geometry" />
+          <mxGeometry height="140" width="430" x="70" y="600" as="geometry" />
         </mxCell>
         <mxCell id="TW6byGsbLyMXrGjlFqkB-30" edge="1" parent="TW6byGsbLyMXrGjlFqkB-6" source="TW6byGsbLyMXrGjlFqkB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TW6byGsbLyMXrGjlFqkB-22" value="">
           <mxGeometry relative="1" as="geometry" />
