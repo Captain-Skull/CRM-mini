@@ -4,8 +4,8 @@
 | Поле | Значение |
 |------|----------|
 | **Название кейса** | Кейс 3. CRM-мини: лиды и воронка продаж |
-| **Версия карточки** | v0.1 |
-| **Дата** | 15.02.2026 |
+| **Версия карточки** | v0.9 |
+| **Дата** | 09.03.2026 |
 
 ## 2. Команда
 | Роль | ФИО | Профиль подготовки |
@@ -49,7 +49,7 @@
 | **Источник** | Синтетические данные, генерируемые по схеме из приложения C |
 | **Форматы** | CSV (кодировка UTF-8, `,` разделитель, `"` кавычки) |
 | **ОбЪем** | T1: ≥ 100 лидов, ≥ 300 записей истории статусов. T2: ≥ 1000 лидов |
-| **Основные таблицы** | `leads.scv (lead_id, created_at, source, current_stage, owner)`, `lead_stages.csv (lead_id, stage, entered_at, left_at)`, `sources.csv (code, name)` |
+| **Основные таблицы** | `leads.scv (ld, firstname, lastname, phoneNumber, email, stage, sourceId, managerId, createdAt, enteredAt)`, `lead_stages.csv (id, leadId, stage, enteredAt, leftAt)` |
 | **Валидации** | порядок стадий, entered_at < left_at, домен stage |
 
 ## 6. Риски и допущения
@@ -85,12 +85,12 @@
 
 ## 9. Acceptance-критерии
 Полный список критериев приёмки с весами и способами проверки приведён в отдельном документе:  
-👉 [Acceptance Criteria](../qa//acceptance.md)
+👉 [Acceptance Criteria](../qa/acceptance.md)
 
 ## 10. Ссылки
 | Объект | Ссылка |
 |--------|--------|
-| **Репозиторий** | |
+| **Репозиторий** | https://gitverse.ru/topit/9-00_team6_Mkrtchyan |
 | **T1** | |
 | **T2** | |
 | **Макеты UI** | |
