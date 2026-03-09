@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="Catalog.Источник" id="d4f2b070-25af-477f-becd-cc38ca5c99b6" configVersion="5d6a643b680f0c49a24ef292e967ddfb00000000"/>
+		<Metadata name="Catalog.Лиды" id="bd970dba-47bb-4def-a1b9-ea893cc962a8" configVersion="fb1ba1027a4e904685597b23c08fbec600000000">
+			<Metadata name="Catalog.Лиды.Attribute.Менеджер" id="00567e84-8609-4025-804f-51991956d645"/>
+			<Metadata name="Catalog.Лиды.Attribute.Источник" id="127dbb4d-5c73-49b5-831b-b8933c52ecf1"/>
+			<Metadata name="Catalog.Лиды.Attribute.ПопалВСтатус" id="1425211c-411f-43fb-baaa-9118df5ea33b"/>
+			<Metadata name="Catalog.Лиды.Attribute.Создан" id="1c600d08-e665-4a80-a6ea-0e8aa58197e5"/>
+			<Metadata name="Catalog.Лиды.Attribute.Статус" id="1c778369-b55c-4ccf-94fa-f8c4858bfb54"/>
+			<Metadata name="Catalog.Лиды.Attribute.Фамилия" id="8de2e6b9-06b0-44b4-ae75-7785dfd3557f"/>
+		</Metadata>
+		<Metadata name="Catalog.Лиды.Help" id="bd970dba-47bb-4def-a1b9-ea893cc962a8.1" configVersion="37ea9653666a3e458cd87afb312bb6d300000000"/>
+		<Metadata name="Catalog.Лиды.ObjectModule" id="bd970dba-47bb-4def-a1b9-ea893cc962a8.0" configVersion="af905f1b201bc24191e2305a8e92038600000000"/>
+		<Metadata name="Catalog.Пользователи" id="540ac6f5-8af1-491e-9fff-8e2c196f5f29" configVersion="4181abc1b88c8440b6bc012ec8b2cec400000000">
+			<Metadata name="Catalog.Пользователи.Attribute.Роль" id="c2bd802f-37bc-4b5a-a4a5-e282d75b92cf"/>
+			<Metadata name="Catalog.Пользователи.Attribute.Фамилия" id="e8bc019f-a5dd-4756-bc6b-24aecc015004"/>
+		</Metadata>
+		<Metadata name="Catalog.Пользователи.ObjectModule" id="540ac6f5-8af1-491e-9fff-8e2c196f5f29.0" configVersion="0c15a4293ee85040814bfc1e64a4232e00000000"/>
+		<Metadata name="Configuration.CRMmini" id="3a54a1c6-d457-492d-a34c-c6d1a6324f6b" configVersion="286052b50013744d9a2eff64d46e13a400000000"/>
+		<Metadata name="Configuration.CRMmini.CommandInterface" id="a7477ab1-fd75-4bed-8843-7604eb7e7dbc.a" configVersion="74798e2919bc2243ba07cb7d2ed58a7a00000000"/>
+		<Metadata name="Configuration.CRMmini.HomePageWorkArea" id="a7477ab1-fd75-4bed-8843-7604eb7e7dbc.8" configVersion="eee6651f1cc73842af4571f40b1b38f400000000"/>
+		<Metadata name="Configuration.CRMmini.MainSectionCommandInterface" id="a7477ab1-fd75-4bed-8843-7604eb7e7dbc.9" configVersion="65c98e313e575048b22a1c2f0a1aef2900000000"/>
+		<Metadata name="Enum.Роль" id="fe6d38cd-6972-46e6-ab78-f3f7443f4430" configVersion="a6d3374a5a4dda479eda1b24035f6cca00000000">
+			<Metadata name="Enum.Роль.EnumValue.Руководитель" id="575136ed-276b-4d4e-9710-d7343475f23d"/>
+			<Metadata name="Enum.Роль.EnumValue.Менеджер" id="d8e75bc5-3d1c-4749-ae08-bad98895a427"/>
+		</Metadata>
+		<Metadata name="Enum.Статус" id="6534d416-aee6-43ac-9238-18b276a3eae8" configVersion="15e22fbb063f5640a945526f9e7471f800000000">
+			<Metadata name="Enum.Статус.EnumValue.Новый" id="0e35518b-26db-4fed-ba2a-f4aebc59f526"/>
+			<Metadata name="Enum.Статус.EnumValue.Квалифицированный" id="2370799a-ff62-4417-bf14-d489d59d2532"/>
+			<Metadata name="Enum.Статус.EnumValue.Предложение" id="37d3f65b-d396-4dc4-be73-9f34329a10b8"/>
+			<Metadata name="Enum.Статус.EnumValue.Отказ" id="af21ac4b-eb01-4bed-9459-2d55d58854f7"/>
+			<Metadata name="Enum.Статус.EnumValue.Успешно" id="b08b0814-0973-4e7d-afcd-cadd2477bad6"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ИсторияЛидов" id="33baff0f-0cba-4486-b00f-eb8f635beb2c" configVersion="769e0a011328304fb7698be8e8592bde00000000">
+			<Metadata name="InformationRegister.ИсторияЛидов.Resource.Вышел" id="525d48ed-8d4f-4e9b-85ec-94b0cbfb2206"/>
+			<Metadata name="InformationRegister.ИсторияЛидов.Resource.Статус" id="8f5ae7c8-89a6-475e-b645-9858220028a2"/>
+			<Metadata name="InformationRegister.ИсторияЛидов.Dimension.Лид" id="9da46789-eb83-42f5-956c-af91ceb69764"/>
+			<Metadata name="InformationRegister.ИсторияЛидов.Resource.Попал" id="a95ebdc4-5418-4a95-bac0-e42f47dc740d"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="da36db6b-758a-4ae6-854f-ca368e2e97a5" configVersion="532d9ef713ab7d448284941d8a25f43d00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
