@@ -189,11 +189,11 @@
 			</Resource>
 			<Dimension uuid="9da46789-eb83-42f5-956c-af91ceb69764">
 				<Properties>
-					<Name>Лид</Name>
+					<Name>ЛидИД</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Лид</v8:content>
+							<v8:content>ЛидИД</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
