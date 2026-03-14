@@ -269,6 +269,7 @@
 			<Catalog>Пользователи</Catalog>
 			<Enum>Роль</Enum>
 			<Enum>Статус</Enum>
+			<DataProcessor>ЗагрузкаCSVФайла</DataProcessor>
 			<InformationRegister>ИсторияЛидов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
