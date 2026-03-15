@@ -21,9 +21,7 @@
 			<Metadata name="Catalog.Пользователи.Attribute.Фамилия" id="e8bc019f-a5dd-4756-bc6b-24aecc015004"/>
 		</Metadata>
 		<Metadata name="Catalog.Пользователи.ObjectModule" id="540ac6f5-8af1-491e-9fff-8e2c196f5f29.0" configVersion="d851401d80c91641867ac46f6214aac400000000"/>
-		<Metadata name="CommonModule.ПолучитьЛиды" id="b2a14e69-c069-43a7-9976-79bbbf80d49d" configVersion="1d914e4cdc5c6b429c73dc652a43fb6600000000"/>
-		<Metadata name="CommonModule.ПолучитьЛиды.Module" id="b2a14e69-c069-43a7-9976-79bbbf80d49d.0" configVersion="711bb8a0affaa44b8d5a37235212879000000000"/>
-		<Metadata name="Configuration.CRMmini" id="3a54a1c6-d457-492d-a34c-c6d1a6324f6b" configVersion="dad0aa167eea37449bfc9fea1ebc7bb600000000"/>
+		<Metadata name="Configuration.CRMmini" id="3a54a1c6-d457-492d-a34c-c6d1a6324f6b" configVersion="8869f4f77f3ae6409550c7c35beca5d900000000"/>
 		<Metadata name="Configuration.CRMmini.HomePageWorkArea" id="a7477ab1-fd75-4bed-8843-7604eb7e7dbc.8" configVersion="9f6f6b0b8e23654d99e9d8a3a47b479c00000000"/>
 		<Metadata name="Configuration.CRMmini.ManagedApplicationModule" id="a7477ab1-fd75-4bed-8843-7604eb7e7dbc.6" configVersion="5761e2d43bec9b4e940098e86c667efd00000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаCSVФайла" id="a4b73ffe-8dc3-48cc-908e-4579e945eb35" configVersion="6f8d56f787bdc14e997770bcede7043700000000">
@@ -43,11 +41,11 @@
 			<Metadata name="Enum.Статус.EnumValue.Отказ" id="af21ac4b-eb01-4bed-9459-2d55d58854f7"/>
 			<Metadata name="Enum.Статус.EnumValue.Успешно" id="b08b0814-0973-4e7d-afcd-cadd2477bad6"/>
 		</Metadata>
-		<Metadata name="HTTPService.CRM" id="eff3436e-eded-4f89-a57e-442eab3499fe" configVersion="2a9b328c0f1a4d4ab23108ff710d024a00000000">
+		<Metadata name="HTTPService.CRM" id="eff3436e-eded-4f89-a57e-442eab3499fe" configVersion="60aa31226db62a4d8ca976ed42b3e2c100000000">
 			<Metadata name="HTTPService.CRM.URLTemplate.Leads" id="37d8cc7b-d556-4cbb-b969-12cae1c0c282"/>
 			<Metadata name="HTTPService.CRM.URLTemplate.Leads.Method.ПолучитьЛиды" id="7c1b28d3-2ea7-4fa7-827f-12bc072bae6e"/>
 		</Metadata>
-		<Metadata name="HTTPService.CRM.Module" id="eff3436e-eded-4f89-a57e-442eab3499fe.0" configVersion="ae85e184e7b31b41aa7c6024b892e1dd00000000"/>
+		<Metadata name="HTTPService.CRM.Module" id="eff3436e-eded-4f89-a57e-442eab3499fe.0" configVersion="a095954e23fff7408c2dc035d2b1536f00000000"/>
 		<Metadata name="InformationRegister.ИсторияЛидов" id="33baff0f-0cba-4486-b00f-eb8f635beb2c" configVersion="25afae56f6f9034da8fcf99fc618ac6a00000000">
 			<Metadata name="InformationRegister.ИсторияЛидов.Resource.Вышел" id="525d48ed-8d4f-4e9b-85ec-94b0cbfb2206"/>
 			<Metadata name="InformationRegister.ИсторияЛидов.Resource.Статус" id="8f5ae7c8-89a6-475e-b645-9858220028a2"/>

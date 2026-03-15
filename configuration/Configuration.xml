@@ -264,7 +264,6 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<CommonModule>ПолучитьЛиды</CommonModule>
 			<HTTPService>CRM</HTTPService>
 			<Catalog>Источник</Catalog>
 			<Catalog>Лиды</Catalog>
