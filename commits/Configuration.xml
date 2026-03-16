@@ -264,6 +264,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<HTTPService>CRM</HTTPService>
 			<Catalog>Источник</Catalog>
 			<Catalog>Лиды</Catalog>
 			<Catalog>Пользователи</Catalog>
