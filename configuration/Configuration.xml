@@ -265,6 +265,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<HTTPService>CRM</HTTPService>
+			<Constant>Флаг</Constant>
 			<Catalog>Источник</Catalog>
 			<Catalog>Лиды</Catalog>
 			<Catalog>Пользователи</Catalog>
