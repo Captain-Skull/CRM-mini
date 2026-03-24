@@ -82,6 +82,64 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="7c10ddac-b2b2-4a3f-9682-c7724d2ef13b">
+				<Properties>
+					<Name>ЛидПоИдентификатору</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Лид по идентификатору</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/leads/{leadId}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="35a3942d-c78b-4faf-ab78-affc3798f13b">
+						<Properties>
+							<Name>ПолучитьЛидаПоИД</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить лида по ИД</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ЛидПоИдентификаторуПолучитьЛидПоИД</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="2ddfc62e-3409-4522-acc8-e389661856c7">
+				<Properties>
+					<Name>ИзменитьСтатусЛида</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменить статус лида</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/leads/{leadId}/status</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="c10bf8a3-0efb-4d93-a2f9-3c591ef3f631">
+						<Properties>
+							<Name>ИзменитьСтатусЛида</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Изменить статус лида</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>PATCH</HTTPMethod>
+							<Handler>ИзменитьСтатусЛида</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>

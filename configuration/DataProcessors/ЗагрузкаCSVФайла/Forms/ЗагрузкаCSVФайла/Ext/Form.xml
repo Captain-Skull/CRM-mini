@@ -10,7 +10,6 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ПутьКФайлуКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="ПутьКФайлуРасширеннаяПодсказка" id="5"/>
-			<SelectedItemsActionsPanel name="ПутьКФайлуПанельДействийВыделенныхСтрок" id="109"/>
 		</InputField>
 		<Button name="ДанныеФайлаПутьКФайлуНачалоВыбора" id="28">
 			<Type>UsualButton</Type>
